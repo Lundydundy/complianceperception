@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/financecomp/static/css/main.6d195101.css",
-    "main.js": "/financecomp/static/js/main.b6e7786f.js",
+    "main.js": "/financecomp/static/js/main.c49c5ef9.js",
     "static/js/787.d7bf4ea6.chunk.js": "/financecomp/static/js/787.d7bf4ea6.chunk.js",
     "static/media/financial_background.jpg": "/financecomp/static/media/financial_background.87a852f4ec676a447e74.jpg",
     "static/media/moneylaun2.jpg": "/financecomp/static/media/moneylaun2.977db1489e8d6bcbda3d.jpg",
@@ -16,11 +16,11 @@
     "static/media/service_01.jpg": "/financecomp/static/media/service_01.ef6b416d7a08a1f3f48c.jpg",
     "index.html": "/financecomp/index.html",
     "main.6d195101.css.map": "/financecomp/static/css/main.6d195101.css.map",
-    "main.b6e7786f.js.map": "/financecomp/static/js/main.b6e7786f.js.map",
+    "main.c49c5ef9.js.map": "/financecomp/static/js/main.c49c5ef9.js.map",
     "787.d7bf4ea6.chunk.js.map": "/financecomp/static/js/787.d7bf4ea6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d195101.css",
-    "static/js/main.b6e7786f.js"
+    "static/js/main.c49c5ef9.js"
   ]
 }
