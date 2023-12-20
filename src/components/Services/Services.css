@@ -1,0 +1,58 @@
+.services{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.services .row > div{
+    padding-bottom: 3%;
+}
+
+.down-content{
+    background-color: rgb(243, 241, 241);
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.service-item .down-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.service-item .down-content a{
+    margin-top: auto;
+}
+
+
+
+@media (min-width: 1201px){
+    .down-content{
+        min-height: 293px;
+       }
+}
+
+
+@media (min-width: 922px) and (max-width: 1200px){
+   .down-content{
+    min-height: 360px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .down-content{
+     min-height: 433px;
+    }
+ }
+
+
