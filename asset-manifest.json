@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8c33978.css",
-    "main.js": "/static/js/main.7fe5b5de.js",
-    "static/js/787.d7bf4ea6.chunk.js": "/static/js/787.d7bf4ea6.chunk.js",
-    "static/media/financial_background.jpg": "/static/media/financial_background.87a852f4ec676a447e74.jpg",
-    "static/media/moneylaun2.jpg": "/static/media/moneylaun2.977db1489e8d6bcbda3d.jpg",
-    "static/media/servicehead.jpg": "/static/media/servicehead.5849b1f86e2b3fdace37.jpg",
-    "static/media/abouthead.jpg": "/static/media/abouthead.0a889dc6f90409ac31cb.jpg",
-    "static/media/registration.jpg": "/static/media/registration.9d18edc55cba163db7a7.jpg",
-    "static/media/contacthead.jpg": "/static/media/contacthead.16d3f6b3485753444e40.jpg",
-    "static/media/policies.jpg": "/static/media/policies.75da221563e57c54db9d.jpg",
-    "static/media/viewpoint.jpg": "/static/media/viewpoint.756d8fc3ff235ebc5e8b.jpg",
-    "static/media/more-info.jpg": "/static/media/more-info.1c3293d4e0e4fb0737d1.jpg",
-    "static/media/about-image.jpg": "/static/media/about-image.e91c3cc0fc3e3865d849.jpg",
-    "static/media/service_03.jpg": "/static/media/service_03.4f9852750f5bc6b87af2.jpg",
-    "static/media/service_02.jpg": "/static/media/service_02.7a6725edb8586f9bfe5c.jpg",
-    "static/media/service_01.jpg": "/static/media/service_01.ef6b416d7a08a1f3f48c.jpg",
-    "index.html": "/index.html",
-    "main.c8c33978.css.map": "/static/css/main.c8c33978.css.map",
-    "main.7fe5b5de.js.map": "/static/js/main.7fe5b5de.js.map",
-    "787.d7bf4ea6.chunk.js.map": "/static/js/787.d7bf4ea6.chunk.js.map"
+    "main.css": "/financecomp/static/css/main.4fba125d.css",
+    "main.js": "/financecomp/static/js/main.02b886db.js",
+    "static/js/787.d7bf4ea6.chunk.js": "/financecomp/static/js/787.d7bf4ea6.chunk.js",
+    "static/media/financial_background.jpg": "/financecomp/static/media/financial_background.87a852f4ec676a447e74.jpg",
+    "static/media/moneylaun2.jpg": "/financecomp/static/media/moneylaun2.977db1489e8d6bcbda3d.jpg",
+    "static/media/servicehead.jpg": "/financecomp/static/media/servicehead.5849b1f86e2b3fdace37.jpg",
+    "static/media/abouthead.jpg": "/financecomp/static/media/abouthead.0a889dc6f90409ac31cb.jpg",
+    "static/media/registration.jpg": "/financecomp/static/media/registration.9d18edc55cba163db7a7.jpg",
+    "static/media/contacthead.jpg": "/financecomp/static/media/contacthead.16d3f6b3485753444e40.jpg",
+    "static/media/policies.jpg": "/financecomp/static/media/policies.75da221563e57c54db9d.jpg",
+    "static/media/viewpoint.jpg": "/financecomp/static/media/viewpoint.756d8fc3ff235ebc5e8b.jpg",
+    "static/media/more-info.jpg": "/financecomp/static/media/more-info.1c3293d4e0e4fb0737d1.jpg",
+    "static/media/about-image.jpg": "/financecomp/static/media/about-image.e91c3cc0fc3e3865d849.jpg",
+    "static/media/service_03.jpg": "/financecomp/static/media/service_03.4f9852750f5bc6b87af2.jpg",
+    "static/media/service_02.jpg": "/financecomp/static/media/service_02.7a6725edb8586f9bfe5c.jpg",
+    "static/media/service_01.jpg": "/financecomp/static/media/service_01.ef6b416d7a08a1f3f48c.jpg",
+    "index.html": "/financecomp/index.html",
+    "main.4fba125d.css.map": "/financecomp/static/css/main.4fba125d.css.map",
+    "main.02b886db.js.map": "/financecomp/static/js/main.02b886db.js.map",
+    "787.d7bf4ea6.chunk.js.map": "/financecomp/static/js/787.d7bf4ea6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8c33978.css",
-    "static/js/main.7fe5b5de.js"
+    "static/css/main.4fba125d.css",
+    "static/js/main.02b886db.js"
   ]
 }
