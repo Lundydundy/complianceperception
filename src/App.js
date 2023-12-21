@@ -22,10 +22,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/financecomp" element={<LandingPage page={"landing"} changePage={changePage} />} />
-          <Route path="/financecomp/about" element={<AboutPage page={"about"} changePage={changePage} />} />
-          <Route path="/financecomp/services" element={<ServicePage page={"service"} changePage={changePage} />} />
-          <Route path="/financecomp/contact" element={<ContactPage page={"contact"} changePage={changePage} />} />
+          <Route path="/" element={<LandingPage page={"landing"} changePage={changePage} />} />
+          <Route path="/about" element={<AboutPage page={"about"} changePage={changePage} />} />
+          <Route path="/services" element={<ServicePage page={"service"} changePage={changePage} />} />
+          <Route path="/contact" element={<ContactPage page={"contact"} changePage={changePage} />} />
         </Routes>
       </BrowserRouter>
     </div>
