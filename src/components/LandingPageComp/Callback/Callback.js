@@ -11,7 +11,7 @@ const Callback = () => {
                         <span>Click the contact button for options on how to reach Lorne.</span>
                     </div>
                     <div className="col-md-4">
-                        <a href="contact.html" className="border-button">Contact</a>
+                        <a href="/financecomp/contact" className="border-button">Contact</a>
                     </div>
                 </div>
             </div>

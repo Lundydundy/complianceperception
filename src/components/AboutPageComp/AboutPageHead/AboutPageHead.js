@@ -1,18 +1,18 @@
-import Navigation from "../Navigation/Navigation"
-import "./ServicePageHead.css"
+import Navigation from "../../Navigation/Navigation"
+import "./AboutPageHead.css"
 
-const ServicePageHead = (props) => {
+const AboutPageHead = (props) => {
     const { page, changePage } = props
     return (
-        <div className="service-head">
+        <div className="about-head">
             <Navigation page={page} changePage={changePage} />
             <div className="container">
                 <div className="row">
-                    <h1>Services</h1>
+                    <h1>About</h1>
                 </div>
             </div>
         </div>
     )
 }
 
-export default ServicePageHead
+export default AboutPageHead

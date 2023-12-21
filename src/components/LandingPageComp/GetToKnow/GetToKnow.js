@@ -21,7 +21,7 @@ const GetToKnow = () => {
                                             seasoned professional.
                                             Having navigated the complexities for more than 20 years, he brings a wealth of knowledge to every
                                             aspect of financial services. </p>
-                                        <a href="about.html" className="filled-button">Read More</a>
+                                        <a href="/about" className="filled-button">Read More</a>
                                     </div>
                                 </div>
                             </div>

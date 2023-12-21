@@ -1,9 +1,10 @@
-import Callback from "../../components/Callback/Callback"
-import GetToKnow from "../../components/GetToKnow/GetToKnow"
-import Landing from "../../components/Landing/Landing"
-import OurView from "../../components/OurView/OurView"
-import RequestCall from "../../components/RequestCall/RequestCall"
-import Services from "../../components/Services/Services"
+import Callback from "../../components/LandingPageComp/Callback/Callback"
+import GetToKnow from "../../components/LandingPageComp/GetToKnow/GetToKnow"
+import Landing from "../../components/LandingPageComp/Landing/Landing"
+import OurView from "../../components/LandingPageComp/OurView/OurView"
+import RequestCall from "../../components/LandingPageComp/RequestCall/RequestCall"
+import Services from "../../components/LandingPageComp/Services/Services"
+import Footer from "../../components/Footer/Footer"
 
 const LandingPage = (props) => {
     const {page, changePage} = props
@@ -15,6 +16,7 @@ const LandingPage = (props) => {
             <GetToKnow changePage={changePage}/>
             <OurView />
             <RequestCall />
+            <Footer page={page} changePage={changePage} />
         </div>
     )
 }

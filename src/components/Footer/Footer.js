@@ -1,4 +1,5 @@
 import "./Footer.css"
+import { Link } from "react-router-dom"
 
 const Footer = (props) => {
     const {changePage} = props
@@ -7,16 +8,16 @@ const Footer = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 footer-item">
-                        <h4>Compliance Perspective</h4>
+                        <h4>Compliance Perception</h4>
                         <p>Your trusted consultant for compliance and success in the intricate world of finance.</p>
                     </div>
                     <div className="col-md-4 footer-item">
                         <h4>Site Navigation</h4>
                         <ul className="menu-list">
-                            <li><a onClick={() => changePage("landing")}>Home</a></li>
-                            <li><a onClick={() => changePage("about")}>About</a></li>
-                            <li><a onClick={() => changePage("service")}>Services</a></li>
-                            <li><a onClick={() => changePage("contact")}>Contact</a></li>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp"><li onClick={() => changePage("landing")}>Home</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp/about"><li onClick={() => changePage("about")}>About</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp/services"><li onClick={() => changePage("service")}>Services</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp/contact"><li onClick={() => changePage("contact")}>Contact</li></Link>
                         </ul>
                     </div>
                     <div className="col-md-4 footer-item last-item">
