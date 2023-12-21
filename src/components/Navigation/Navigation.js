@@ -13,10 +13,10 @@ const Navigation = (props) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link style={{textDecoration: "none"}} exact to="/financecomp" className={page === "landing" ? "nav-link active" : "nav-link"} onClick={() => changePage("landing")}>Home</Link>
-                        <Link style={{textDecoration: "none"}} exact to="/financecomp/about"className={page === "about" ? "nav-link active" : "nav-link"}  onClick={() => changePage("about")}>About</Link>
-                        <Link style={{textDecoration: "none"}} exact to="/financecomp/services"className={page === "service" ? "nav-link active" : "nav-link"} onClick={() => changePage("service")} >Services</Link>
-                        <Link style={{textDecoration: "none"}} exact to="/financecomp/contact" className={page === "contact" ? "nav-link active" : "nav-link"} onClick={() => changePage("contact")} >Contact</Link>
+                        <Link style={{textDecoration: "none"}} exact to="/" className={page === "landing" ? "nav-link active" : "nav-link"} onClick={() => changePage("landing")}>Home</Link>
+                        <Link style={{textDecoration: "none"}} exact to="/about"className={page === "about" ? "nav-link active" : "nav-link"}  onClick={() => changePage("about")}>About</Link>
+                        <Link style={{textDecoration: "none"}} exact to="/services"className={page === "service" ? "nav-link active" : "nav-link"} onClick={() => changePage("service")} >Services</Link>
+                        <Link style={{textDecoration: "none"}} exact to="/contact" className={page === "contact" ? "nav-link active" : "nav-link"} onClick={() => changePage("contact")} >Contact</Link>
                     </div>
                 </div>
             </div>

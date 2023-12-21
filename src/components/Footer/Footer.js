@@ -14,10 +14,10 @@ const Footer = (props) => {
                     <div className="col-md-4 footer-item">
                         <h4>Site Navigation</h4>
                         <ul className="menu-list">
-                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp"><li onClick={() => changePage("landing")}>Home</li></Link>
-                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp/about"><li onClick={() => changePage("about")}>About</li></Link>
-                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp/services"><li onClick={() => changePage("service")}>Services</li></Link>
-                            <Link style={{textDecoration: "none", color: "white"}} to="/financecomp/contact"><li onClick={() => changePage("contact")}>Contact</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/"><li onClick={() => changePage("landing")}>Home</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/about"><li onClick={() => changePage("about")}>About</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/services"><li onClick={() => changePage("service")}>Services</li></Link>
+                            <Link style={{textDecoration: "none", color: "white"}} to="/contact"><li onClick={() => changePage("contact")}>Contact</li></Link>
                         </ul>
                     </div>
                     <div className="col-md-4 footer-item last-item">
