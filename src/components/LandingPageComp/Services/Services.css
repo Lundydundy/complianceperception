@@ -35,9 +35,6 @@ img{
 }
 
 
-
-
-
 @media (min-width: 1201px){
     .down-content{
         min-height: 293px;
@@ -45,15 +42,14 @@ img{
 }
 
 
-@media (min-width: 922px) and (max-width: 1200px){
+@media (min-width: 991px) and (max-width: 1200px){
    .down-content{
-    min-height: 360px;
+    min-height: 350px;
    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
     .down-content{
-     min-height: 433px;
     }
  }
 

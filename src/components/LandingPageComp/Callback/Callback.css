@@ -63,9 +63,20 @@ a.border-button:hover {
 }
 
 
-@media(max-width: 769px){
+@media(max-width: 991px){
     .request-form a.border-button {
         margin-top: 12px;
         float: none;
     }
+
+	.request-form h4{
+		align-self: center;
+	}
+
+	.request-form .row{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }
