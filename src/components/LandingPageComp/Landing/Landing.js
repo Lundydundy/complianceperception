@@ -12,7 +12,7 @@ const Landing = (props) => {
                 <p>Elevate your financial endeavours with all-encompassing services. From expert witness consultations, complaint handling, 
                     policy and procedure checkup, money laundering once-over, risk assessment reflection and compliance and supervision scan. 
                     Lorne is your trusted consultant for compliance and success in the intricate world of finance.</p>
-                <a onClick={() => changePage("contact")} href="/financecomp/contact" className="filled-button">contact</a>
+                <a onClick={() => changePage("contact")} href="/contact" className="filled-button">contact</a>
             </div>
         </div>
     )
