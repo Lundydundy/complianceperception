@@ -4,6 +4,10 @@
 
 }
 
+.contact-information .row{
+    justify-content: center;
+}
+
 .contact-information svg{
     height: 40px;
     fill: var(--main-color);

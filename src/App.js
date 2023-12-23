@@ -23,8 +23,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<LandingPage page={"landing"} changePage={changePage} />} />
-          <Route path="/about" element={<AboutPage page={"about"} changePage={changePage} />} />
-          <Route path="/services" element={<ServicePage page={"service"} changePage={changePage} />} />
           <Route path="/contact" element={<ContactPage page={"contact"} changePage={changePage} />} />
         </Routes>
       </BrowserRouter>

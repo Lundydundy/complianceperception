@@ -2,7 +2,7 @@ import "./Footer.css"
 import { Link } from "react-router-dom"
 
 const Footer = (props) => {
-    const {changePage} = props
+    const {changePage, page} = props
     return (
         <footer>
             <div className="container">
@@ -15,8 +15,8 @@ const Footer = (props) => {
                         <h4>Site Navigation</h4>
                         <ul className="menu-list">
                             <Link style={{textDecoration: "none", color: "white"}} to="/"><li onClick={() => changePage("landing")}>Home</li></Link>
-                            <Link style={{textDecoration: "none", color: "white"}} to="/about"><li onClick={() => changePage("about")}>About</li></Link>
-                            <Link style={{textDecoration: "none", color: "white"}} to="/services"><li onClick={() => changePage("service")}>Services</li></Link>
+                            <a href="#services" style={ page !== "landing" ? { display: "none", textDecoration: "none", color: "white"} : { display: "block", textDecoration: "none", color: "white"}}><li onClick={() => changePage("service")}>Services</li></a>
+                            <a href="#about" style={ page !== "landing" ? { display: "none", textDecoration: "none", color: "white"} : { display: "block", textDecoration: "none", color: "white"}}><li onClick={() => changePage("about")}>About</li></a>
                             <Link style={{textDecoration: "none", color: "white"}} to="/contact"><li onClick={() => changePage("contact")}>Contact</li></Link>
                         </ul>
                     </div>

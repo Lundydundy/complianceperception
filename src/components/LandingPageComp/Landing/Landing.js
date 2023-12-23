@@ -1,6 +1,7 @@
 import React from "react";
 import './Landing.css'
 import Navigation from "../../Navigation/Navigation";
+import { Link } from "react-router-dom";
 const Landing = (props) => {
     const {page, changePage} = props
     return (
@@ -12,7 +13,7 @@ const Landing = (props) => {
                 <p>Elevate your financial endeavours with all-encompassing services. From expert witness consultations, complaint handling, 
                     policy and procedure checkup, money laundering once-over, risk assessment reflection and compliance and supervision scan. 
                     Lorne is your trusted consultant for compliance and success in the intricate world of finance.</p>
-                <a onClick={() => changePage("contact")} href="/contact" className="filled-button">contact</a>
+                <Link onClick={() => changePage("contact")} to="/contact" className="filled-button">contact</Link>
             </div>
         </div>
     )
