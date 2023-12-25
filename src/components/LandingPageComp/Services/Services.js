@@ -66,7 +66,7 @@ const Services = (props) => {
                             <div className="down-content">
                                 <h4>Compliance and Supervision</h4>
                                 <p>Compliance and supervision are an integral part of a firm’s general business activities.
-                                    Lorne can help your firm defined and manage the specific roles and responsibilities with respect to the compliance and supervisory roles and tasks. </p>
+                                    Lorne can help your firm define and manage the specific roles and responsibilities with respect to the compliance and supervisory roles and tasks. </p>
                             </div>
                         </div>
                     </div>
