@@ -12,7 +12,7 @@ const ContactInfo = () => {
                             </svg>
                             <h4>Phone</h4>
                             <p>Monday - Friday <br></br>09:00 - 17:00</p>
-                            <a href="tel:090-080-0760">090-080-0760</a>
+                            <a href="tel:416-450-6471">416-450-6471</a>
                         </div>
                     </div>
                     <div class="col-md-4">

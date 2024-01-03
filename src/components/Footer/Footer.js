@@ -11,6 +11,7 @@ const Footer = (props) => {
                         <h4>Compliance Perception</h4>
                         <p>Your trusted consultant for compliance and success in the intricate world of finance.</p>
                         <a style={{textDecoration: "none"}} href="mailto:complianceperception97@gmail.com">complianceperception97@gmail.com</a>
+                        <a style={{textDecoration: "none"}} href="tel:416-450-6471">416-450-6471</a>
                     </div>
                     <div className="col-md-4 footer-item">
                         <h4>Site Navigation</h4>
