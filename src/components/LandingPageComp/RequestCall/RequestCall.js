@@ -12,7 +12,7 @@ const RequestCall = () => {
                     </div>
                     <div className="col-md-12">
                         <div className="contact-form">
-                            <form id="contact" action="https://formspree.io/f/mzbnppvn" method="post">
+                            <form id="contact" action="https://formspree.io/f/xgegebnn" method="POST">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <fieldset>

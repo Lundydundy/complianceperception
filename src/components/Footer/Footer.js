@@ -25,7 +25,7 @@ const Footer = (props) => {
                     <div className="col-md-4 footer-item last-item">
                         <h4>Contact Us</h4>
                         <div className="contact-form">
-                            <form id="contact footer-contact" action="https://formspree.io/f/mzbnppvn" method="post">
+                            <form id="contact footer-contact" action="https://formspree.io/f/xgegebnn" method="POST">
                                 <div className="row">
                                     <div className="col-lg-12 col-md-12 col-sm-12">
                                         <fieldset>
