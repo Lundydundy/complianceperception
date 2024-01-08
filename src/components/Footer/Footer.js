@@ -2,7 +2,7 @@ import "./Footer.css"
 import { Link } from "react-router-dom"
 
 const Footer = (props) => {
-    const {changePage, page} = props
+    const { changePage, page } = props
     return (
         <footer>
             <div className="container">
@@ -10,16 +10,16 @@ const Footer = (props) => {
                     <div className="col-md-4 footer-item">
                         <h4>Compliance Perception</h4>
                         <p>Your trusted consultant for compliance and success in the intricate world of finance.</p>
-                        <a style={{textDecoration: "none"}} href="mailto:complianceperception97@gmail.com">complianceperception97@gmail.com</a>
-                        <a style={{textDecoration: "none"}} href="tel:416-450-6471">416-450-6471</a>
+                        <a style={{ textDecoration: "none" }} href="mailto:complianceperception97@gmail.com">complianceperception97@gmail.com</a>
+                        <a style={{ textDecoration: "none" }} href="tel:416-450-6471">416-450-6471</a>
                     </div>
                     <div className="col-md-4 footer-item">
                         <h4>Site Navigation</h4>
                         <ul className="menu-list">
-                            <Link style={{textDecoration: "none", color: "white"}} to="/"><li onClick={() => changePage("landing")}>Home</li></Link>
-                            <a href="#services" style={ page !== "landing" ? { display: "none", textDecoration: "none", color: "white"} : { display: "block", textDecoration: "none", color: "white"}}><li onClick={() => changePage("service")}>Services</li></a>
-                            <a href="#about" style={ page !== "landing" ? { display: "none", textDecoration: "none", color: "white"} : { display: "block", textDecoration: "none", color: "white"}}><li onClick={() => changePage("about")}>About</li></a>
-                            <Link style={{textDecoration: "none", color: "white"}} to="/contact"><li onClick={() => changePage("contact")}>Contact</li></Link>
+                            <Link style={{ textDecoration: "none", color: "white" }} to="/"><li onClick={() => changePage("landing")}>Home</li></Link>
+                            <a href="#services" style={page !== "landing" ? { display: "none", textDecoration: "none", color: "white" } : { display: "block", textDecoration: "none", color: "white" }}><li onClick={() => changePage("service")}>Services</li></a>
+                            <a href="#about" style={page !== "landing" ? { display: "none", textDecoration: "none", color: "white" } : { display: "block", textDecoration: "none", color: "white" }}><li onClick={() => changePage("about")}>About</li></a>
+                            <Link style={{ textDecoration: "none", color: "white" }} to="/contact"><li onClick={() => changePage("contact")}>Contact</li></Link>
                         </ul>
                     </div>
                     <div className="col-md-4 footer-item last-item">
@@ -29,13 +29,13 @@ const Footer = (props) => {
                                 <div className="row">
                                     <div className="col-lg-12 col-md-12 col-sm-12">
                                         <fieldset>
-                                            <input name="name" type="text" className="form-control" id="name" placeholder="Full Name" required=""/>
+                                            <input name="name" type="text" className="form-control" id="name" placeholder="Full Name" required="" />
                                         </fieldset>
                                     </div>
                                     <div className="col-lg-12 col-md-12 col-sm-12">
                                         <fieldset>
                                             <input name="email" type="text" className="form-control" id="email" pattern="[^ @]*@[^ @]*"
-                                                placeholder="E-Mail Address" required=""/>
+                                                placeholder="E-Mail Address" required="" />
                                         </fieldset>
                                     </div>
                                     <div className="col-lg-12">
@@ -55,6 +55,12 @@ const Footer = (props) => {
                     </div>
                 </div>
             </div>
+            <div class="col-md-12 copyright">
+                <p>Copyright &copy; Compliance Perception, Ltd.
+
+                    <br/>Design: <a rel="nofollow noopener" href="https://github.com/Lundydundy" target="_blank">Matteo Giliotti</a></p>
+            </div>
+
         </footer>
 
 

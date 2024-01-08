@@ -1,6 +1,6 @@
 footer {
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 80px 0px 10px;
 	color: #fff;
 }
 
@@ -172,4 +172,7 @@ footer .contact-form button.filled-button:hover {
     footer .row .footer-item{
         padding-top: 5%;
     }
+}
+.copyright{
+	padding-top: 4%;
 }
